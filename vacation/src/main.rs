@@ -2,6 +2,13 @@
 use std::cmp::max;
 use std::io;
 
+// - ドキュメントの提示
+// - 補完が効くこと
+// - シンボルを理解してrename
+// - 定義元ジャンプ⇄参照先ジャンプ
+// - 警告、エラーの表示
+// - フォーマット
+
 fn main() {
     let input = input_number();
     let n = input[0] as usize;
