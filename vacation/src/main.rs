@@ -2,6 +2,14 @@
 use std::cmp::max;
 use std::io;
 
+/*
+- lsp公式サイト: https://microsoft.github.io/language-server-protocol/
+- 日本語での解説: https://qiita.com/atsushieno/items/ce31df9bd88e98eec5c4#language-server-protocolの内容
+- 実際に作った人の話: https://qiita.com/lighttiger2505/items/5782debc59ae163a4d81
+- VimでLSPをサポートしたplugin https://github.com/neoclide/coc.nvim
+- 解説用のファイル: https://github.com/ir77/dp_training/blob/master/vacation/src/main.rs
+*/
+
 // - ドキュメントの提示
 // - 補完が効くこと
 // - シンボルを理解してrename
